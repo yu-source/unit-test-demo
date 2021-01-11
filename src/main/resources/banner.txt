@@ -1,0 +1,51 @@
+
+             ${AnsiColor.RED}                                      :
+             ${AnsiColor.RED}                                      ii
+             ${AnsiColor.RED}                                      :L:
+             ${AnsiColor.RED}                                      LLL
+             ${AnsiColor.RED}                                     .LL:
+             ${AnsiColor.RED}                                    .iLi
+             ${AnsiColor.RED}                                   :LLL.
+             ${AnsiColor.RED}                                 .iLLL.
+             ${AnsiColor.RED}                               .iLLLi
+             ${AnsiColor.RED}                             :LLLLi.
+             ${AnsiColor.RED}                          .iLLLLL.        ..LL:.
+             ${AnsiColor.RED}                        :iLLLLi.      .:iLi:.
+             ${AnsiColor.RED}                     .LLLLLL:      .iLLLi
+             ${AnsiColor.RED}                    LLLLLL:      :LLLL.
+             ${AnsiColor.RED}                  :LLLLL:      :LLLi.
+             ${AnsiColor.RED}                 iLLLLi.      iLLLi.
+             ${AnsiColor.RED}                .LLLLL.      iLLLL.
+             ${AnsiColor.RED}                .LLLLL       iLLLL:
+             ${AnsiColor.RED}                 LLLLi       iLLLLL:                                       iiiii
+             ${AnsiColor.RED}                  LLLL.      .LLLLLLL                                     .LLLLL
+             ${AnsiColor.RED}                   :LLi       :LLLLLLL.                                   .LLLLL
+             ${AnsiColor.RED}                    .iLi.      .iLLLLLL.                                  .LLLLL
+             ${AnsiColor.RED}                      .iL:       :LLLLL:                                  .LLLLL    .iiLLLLLLLLLi.    iLLLi        :LLLL.  .:LLLLLLLLLLi:L:
+             ${AnsiColor.RED}                        .ii.      :LLLL.                                  .LLLLL    iLLLiiLLiLLLLLi   .LLLL:       LLLLi   :LLLiiLLiLLLLLL.
+             ${AnsiColor.RED}                          .i.     .LLi.                                   .LLLLL              :LLLL:   iLLLL.     .LLLL:              iLLLi
+     ${AnsiColor.BLUE}                      ..:.   ${AnsiColor.RED}             iL:       ${AnsiColor.BLUE}       :iiLLLiL.      ${AnsiColor.RED}        .LLLLL              .LLLL:   .LLLLL     :LLLi               iLLLi
+     ${AnsiColor.BLUE}              .iiLLL.        ${AnsiColor.RED}           .i.         ${AnsiColor.BLUE}            .:LLLi    ${AnsiColor.RED}        .LLLLL       ..:iiiiiLLLL:    :LLLL:    iLLL:        .::LiiiiLLLi
+     ${AnsiColor.BLUE}          .iLLLLL.                                ..:iL.          .LLL:   ${AnsiColor.RED}        .LLLLL    .iLLLLLLLLLLLLL:     iLLLL.  :LLLi      iLLLLLLLLLLLLLi
+     ${AnsiColor.BLUE}           LLLLLLLLLLLiiiLLLLLLLiiiiiLLLLLLLLLLLiii..              LLLi   ${AnsiColor.RED}        .LLLLL   iLLLi.     .iLLL:     .LLLLi .iLLL.    .LLLL:      iLLLi
+     ${AnsiColor.BLUE}                 ....:::iiiLLLiiii:::....                         :LLL.   ${AnsiColor.RED}        .LLLLL  .LLLL.       LLLL:      iLLLL.iLLL:     iLLLi       iLLLi
+     ${AnsiColor.BLUE}                                                                 :LLL.    ${AnsiColor.RED}        .LLLLL  .LLLL:     .iLLLL:      .iLLLiLLLi      iLLLi.     .iLLLi
+     ${AnsiColor.BLUE}                   LL:                                         :LLL:      ${AnsiColor.RED}        .LLLLL   iLLLLLiiiLLLiLLL:       :LLLLLLi.      .LLLLLLiiLLLiLLLi
+     ${AnsiColor.BLUE}                 .LLLLiL::...        ....:iiiLLLLLL.        .LLi:         ${AnsiColor.RED}        .LLLL:    .:iLLLLii. .iii:        iiiiii.         :iLLLLLi.  iiii
+     ${AnsiColor.BLUE}                   :iLLLLLLLLLLLLLLLLLLLLLLLLLLLiL..     .Li:             ${AnsiColor.RED}       .iLLLi.
+     ${AnsiColor.BLUE}                           ...:::::::....                                 ${AnsiColor.RED}     .iLLLLi.
+     ${AnsiColor.BLUE}                                                                          ${AnsiColor.RED}    .LLLLi.
+     ${AnsiColor.BLUE}                     iLi.                                                 ${AnsiColor.RED}   .LLL:.
+     ${AnsiColor.BLUE}                    iLLLLLLLLiiiLLLLLiiiLLLLLLLLi.
+     ${AnsiColor.BLUE}                      .iLLLLLLLLLLLLLLLLLLLLLLLii.
+     ${AnsiColor.BLUE}         .:iLiL:..          ..::LiiiLLi::..                                           ${AnsiColor.GREEN}        LL :iLLLLiL.    LiLii..iiii        iLLL.
+     ${AnsiColor.BLUE}     :LLL:                                                      .:i                   ${AnsiColor.GREEN}             LL    .LL:  .Li   LL         LL   Li
+     ${AnsiColor.BLUE}   iLLLLLi.                                                 .:iLL.                    ${AnsiColor.GREEN}       :LL   LL      LL. .LL Li           iLL.iL
+     ${AnsiColor.BLUE}   .LLLLLLLLLLLLiiL:::.....             .....:::iiiiLLLLLLi:.        ::               ${AnsiColor.GREEN}        LL   LL      LL: .LLLL:            :LLL:.
+     ${AnsiColor.BLUE}           ..::iiiLLLLLLLLLLLLLLLLLLLLLLLLLLLLiiLi:.            .iiLL.                ${AnsiColor.GREEN}        LL   LL     .LL  .LL :LL:         Li  :LL
+     ${AnsiColor.BLUE}                                                       ..:iLLLLLL.                    ${AnsiColor.GREEN}        LL   LL    LLL   .LL   :LLi       Li   Li
+     ${AnsiColor.BLUE}                 .:LiiiiiiLiii:::::::iiiiLiiiLLLLLLLLLLiL:..                          ${AnsiColor.GREEN}        LL  ...  .      . .    .  .        .::.i
+                                                                                        ${AnsiColor.GREEN}       LL.L:
+
+                          ${AnsiColor.GREEN}Spring Boot的版本号：${AnsiColor.BRIGHT_CYAN}${spring-boot.version}                                     ${AnsiColor.BRIGHT_GREEN}:: Spring Boot ::        ${AnsiColor.BRIGHT_CYAN}${spring-boot.formatted-version}
+${AnsiColor.DEFAULT}
