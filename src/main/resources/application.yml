@@ -25,8 +25,20 @@ spring:
         maxOpenPreparedStatements: 20
     application:
         name: ${artifactId}
+    # Redis
+    redis:
+      host: 127.0.0.1
+
+
 
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.cntest.su.demo.entity
+
+
+#定时任务
+scheduled:
+  cron: 0/5 * * * * ?
+enable:
+  scheduled: false

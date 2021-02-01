@@ -1,7 +1,6 @@
 package com.cntest.su;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
@@ -9,7 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Author: zhangm@seaskylight.com
  * Date: 2018/3/7 11:13
  */
-@EnableAutoConfiguration
 @SpringBootApplication
 public class DemoApplication {
 
