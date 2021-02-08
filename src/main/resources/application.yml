@@ -42,3 +42,12 @@ scheduled:
   cron: 0/5 * * * * ?
 enable:
   scheduled: false
+
+
+remote-algorithm:
+  ip: 172.0.0.1
+  port: 2233
+  username: root
+  password: static/algorithem
+  path: /home/MarketSimulate
+  command: ./py36/bin/python -W ignore ProcessTest.py
