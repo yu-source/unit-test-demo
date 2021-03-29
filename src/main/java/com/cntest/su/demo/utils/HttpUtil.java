@@ -385,18 +385,18 @@ public class HttpUtil {
      * 测试页面路径.
      */
     public static void methodUrlTest() {
-        String url1 = "https://blog.csdn.net/arjun_yu/article/details/113260666";
-        String url2 = "https://blog.csdn.net/arjun_yu/article/details/112993354";
-        String url3 = "https://blog.csdn.net/arjun_yu/article/details/112675985";
-        String url4 = "https://blog.csdn.net/arjun_yu/article/details/110930574";
-        String url5 = "https://blog.csdn.net/arjun_yu/article/details/110916988";
-        String url6 = "https://blog.csdn.net/arjun_yu/article/details/107612205";
-        String url7 = "https://blog.csdn.net/arjun_yu/article/details/113520317";
-        String url8 = "https://blog.csdn.net/arjun_yu/article/details/113520205";
-        String url9 = "https://blog.csdn.net/arjun_yu/article/details/113520371";
-        String url0 = "https://blog.csdn.net/arjun_yu/article/details/113522919";
+        String url10 = "https://blog.csdn.net/arjun_yu/article/details/115294665";
+        String url09 = "https://blog.csdn.net/arjun_yu/article/details/115253517";
+        String url08 = "https://blog.csdn.net/arjun_yu/article/details/113522919";
+        String url07 = "https://blog.csdn.net/arjun_yu/article/details/113520371";
+        String url06 = "https://blog.csdn.net/arjun_yu/article/details/113520317";
+        String url05 = "https://blog.csdn.net/arjun_yu/article/details/112993354";
+        String url04 = "https://blog.csdn.net/arjun_yu/article/details/112675985";
+        String url03 = "https://blog.csdn.net/arjun_yu/article/details/110930574";
+        String url02 = "https://blog.csdn.net/arjun_yu/article/details/110916988";
+        String url01 = "https://blog.csdn.net/arjun_yu/article/details/107612205";
 
-        List<String> urls = Lists.newArrayList(url1, url2, url3, url4, url5, url6, url7, url8, url9, url0);
+        List<String> urls = Lists.newArrayList(url01, url02, url03, url04, url05, url06, url07, url08, url09, url10);
 
         urls.forEach(url -> {
             Executors.newFixedThreadPool(6).execute(() -> {
