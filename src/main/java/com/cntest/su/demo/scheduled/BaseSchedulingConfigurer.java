@@ -1,6 +1,6 @@
 package com.cntest.su.demo.scheduled;
 
-import com.google.common.util.concurrent.ThreadFactoryBuilder;
+import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
@@ -8,9 +8,8 @@ import org.springframework.scheduling.annotation.SchedulingConfigurer;
 import org.springframework.scheduling.config.ScheduledTaskRegistrar;
 import org.springframework.scheduling.support.CronTrigger;
 
-import java.util.concurrent.Executor;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledThreadPoolExecutor;
 
 /**
  * 基于接口SchedulingConfigurer的动态定时任务.
@@ -47,12 +46,11 @@ public abstract class BaseSchedulingConfigurer implements SchedulingConfigurer {
 
     }
 
-    @Bean
-    public Executor taskScheduler() {
-        //设置线程名称
-        ThreadFactory namedThreadFactory = new ThreadFactoryBuilder().setNameFormat("scheduler-pool-%d").build();
+    @Bean(name = "taskExecutor")
+    public ScheduledExecutorService taskScheduler() {
         //创建线程池
-        return Executors.newScheduledThreadPool(3, namedThreadFactory);
+        return new ScheduledThreadPoolExecutor(5,
+                new BasicThreadFactory.Builder().namingPattern("scheduler-pool-%d").daemon(true).build());
     }
 
     /**
