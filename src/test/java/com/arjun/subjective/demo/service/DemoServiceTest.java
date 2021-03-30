@@ -2,9 +2,8 @@ package com.arjun.subjective.demo.service;
 
 import com.arjun.subjective.demo.entity.User;
 import com.arjun.subjective.demo.BaseTest;
-import com.cntest.su.demo.entity.User;
-import com.cntest.su.demo.matcher.DivisibleBy;
-import com.cntest.su.demo.matcher.IsEven;
+import com.arjun.subjective.demo.matcher.DivisibleBy;
+import com.arjun.subjective.demo.matcher.IsEven;
 import org.assertj.core.util.Lists;
 import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
