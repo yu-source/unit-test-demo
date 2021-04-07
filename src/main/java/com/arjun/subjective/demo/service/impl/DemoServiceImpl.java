@@ -19,11 +19,11 @@ public class DemoServiceImpl implements DemoService {
 
     @Override
     public String hi(String name) {
-        for (int i = 0; i < 10; i++) {
-            consumerQueueThreadPool.execute(() -> {
-                System.out.println("当前正在执行线程:" + Thread.currentThread().getName());
-            });
-        }
+//        for (int i = 0; i < 10; i++) {
+//            consumerQueueThreadPool.execute(() -> {
+//                System.out.println("当前正在执行线程:" + Thread.currentThread().getName());
+//            });
+//        }
         return "hi:" + name;
     }
 
