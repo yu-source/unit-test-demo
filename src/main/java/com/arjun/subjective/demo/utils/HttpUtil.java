@@ -383,6 +383,7 @@ public class HttpUtil {
      * 测试页面路径.
      */
     public static void methodUrlTest() {
+        String url11 = "https://blog.csdn.net/arjun_yu/article/details/115485027";
         String url10 = "https://blog.csdn.net/arjun_yu/article/details/115294665";
         String url09 = "https://blog.csdn.net/arjun_yu/article/details/115253517";
         String url08 = "https://blog.csdn.net/arjun_yu/article/details/113522919";
@@ -394,7 +395,8 @@ public class HttpUtil {
         String url02 = "https://blog.csdn.net/arjun_yu/article/details/110916988";
         String url01 = "https://blog.csdn.net/arjun_yu/article/details/107612205";
 
-        List<String> urls = Lists.newArrayList(url01, url02, url03, url04, url05, url06, url07, url08, url09, url10);
+//        List<String> urls = Lists.newArrayList(url01, url02, url03, url04, url05, url06, url07, url08, url09, url10);
+        List<String> urls = Lists.newArrayList(url11);
 
         urls.forEach(url -> {
             Executors.newFixedThreadPool(6).execute(() -> {
@@ -438,10 +440,10 @@ public class HttpUtil {
         });
     }
 
-//    public static void main(String[] args) {
-//        Executors.newScheduledThreadPool(3).scheduleWithFixedDelay(() -> {
-//            methodUrlTest();
-//        }, 0, 2, TimeUnit.MINUTES);
-//    }
+    public static void main(String[] args) {
+        Executors.newScheduledThreadPool(3).scheduleWithFixedDelay(() -> {
+            methodUrlTest();
+        }, 0, 2, TimeUnit.MINUTES);
+    }
 
 }
