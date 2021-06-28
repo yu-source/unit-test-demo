@@ -77,9 +77,18 @@ public class UnitConversionUtil {
         return sb.toString();
     }
 
-//    public static void main(String[] args) {
-//        System.out.println(formatNum("1000000", true));
-//        System.out.println(formatNum("1000000", false));
-//        System.out.println(formatNum("1507000", false));
-//    }
+    public static void main(String[] args) {
+        System.out.println(formatNum("1000000", true));
+        System.out.println(formatNum("1000000", false));
+        System.out.println(formatNum("1507000", false));
+
+        //----------------------------------------------
+
+        // 1E8 为一亿，即 1*10的8次方
+        double i = 1E8D;
+        // toPlainString()可以装换为数值
+        System.out.println(BigDecimal.valueOf(1E8D).toPlainString());
+        System.out.println(10 * 10 * 10 * 10 * 10 * 10 * 10 * 10);
+
+    }
 }
