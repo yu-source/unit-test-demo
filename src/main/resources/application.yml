@@ -28,7 +28,16 @@ spring:
   # Redis
   redis:
     host: 127.0.0.1
-
+  servlet:
+    multipart:
+      # 默认最大上传文件大小为1M，单个文件大小
+      max-file-size: 50MB
+      # 默认最大请求大小为10M，总上传的数据大小
+      max-request-size: 500MB
+      # 默认支持文件上传
+      enabled: true
+      # 支持文件写入磁盘
+      file-size-threshold: 0
 
 
 
@@ -51,3 +60,19 @@ remote-algorithm:
   password: static/algorithem
   path: /home/MarketSimulate
   command: ./py36/bin/python -W ignore ProcessTest.py
+
+# 分布式文件系统FastDFS配置
+fdfs:
+  # 读取时间
+  so-timeout: 1501
+  # 连接超时时间
+  connect-timeout: 601
+  # 缩略图生成参数
+  thumb-image:
+    width: 150
+    height: 150
+  # 前端访问url
+  webServerUrl: http://176.16.1.21:50008/
+  # Tracker服务，支持多个
+  tracker-list:
+    - 176.16.1.21:50009
