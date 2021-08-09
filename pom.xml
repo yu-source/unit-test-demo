@@ -148,12 +148,12 @@
             <scope>compile</scope>
         </dependency>
 
-        <!--  dm7-->
-        <dependency>
-            <groupId>com.dameng</groupId>
-            <artifactId>Dm7JdbcDriver17</artifactId>
-            <version>7.6.0.142</version>
-        </dependency>
+<!--        &lt;!&ndash;  dm7&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.dameng</groupId>-->
+<!--            <artifactId>Dm7JdbcDriver17</artifactId>-->
+<!--            <version>7.6.0.142</version>-->
+<!--        </dependency>-->
 
         <!-- FastDFS依赖 -->
         <dependency>
@@ -161,6 +161,19 @@
             <artifactId>fastdfs-client</artifactId>
             <version>1.27.2</version>
         </dependency>
+
+        <!-- 上传视频截图依赖 -->
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv</artifactId>
+            <version>1.5.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>ffmpeg-platform</artifactId>
+            <version>4.3.2-1.5.5</version>
+        </dependency>
+
         <!-- Swagger2 核心依赖 -->
         <dependency>
             <groupId>io.springfox</groupId>
@@ -179,6 +192,38 @@
             <artifactId>swagger-bootstrap-ui</artifactId>
             <version>1.9.6</version>
         </dependency>
+
+        <!-- 发送HTTP请求，接收HTTP响应 -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.13</version>
+        </dependency>
+
+        <!--数据库连接-->
+<!--        <dependency>-->
+<!--            <groupId>mysql</groupId>-->
+<!--            <artifactId>mysql-connector-java</artifactId>-->
+<!--            <scope>runtime</scope>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash;Druid 数据源 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba</groupId>-->
+<!--            <artifactId>druid-spring-boot-starter</artifactId>-->
+<!--            <version>1.1.21</version>-->
+<!--        </dependency>-->
+        <!--代码生成器-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>3.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-engine-core</artifactId>
+            <version>2.0</version>
+        </dependency>
+
 
     </dependencies>
 
