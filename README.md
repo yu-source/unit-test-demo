@@ -13,6 +13,8 @@ DB数据库表结构转化成Word文档
 
 执行定时任务方式
 
+有条件地终止 ScheduledExecutorService 中运行的定时任务.
+
 测试异步Async调用代理类调用
 
 自定义注解记录系统日志
